@@ -1,0 +1,30 @@
+{
+  "name": "@demo/react-library",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "npm run tsc",
+    "tsc": "tsc -p ."
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@stencil/react-output-target": "^0.8.2",
+    "@demo/stencil-library": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
+  }
+}
